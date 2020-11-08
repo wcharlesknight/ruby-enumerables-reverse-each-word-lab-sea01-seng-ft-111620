@@ -1,5 +1,3 @@
 def reverse_each_word(string)
-  string.split.map do |word|
-    word.reverse.join(" ")
-  end 
+  string.split.map { |word| word.reverse}.join(" ")
 end
